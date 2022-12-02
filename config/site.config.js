@@ -4,7 +4,7 @@ module.exports = {
   icon: '/icons/128.png',
   kvPrefix: process.env.KV_PREFIX || '',
   title: "Liam's OneDrive",
-  baseDirectory: '/Public/',
+  baseDirectory: '/Public',
   maxItems: 100,
   googleFontSans: 'Inter',
   googleFontMono: 'Fira Mono',
