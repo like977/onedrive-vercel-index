@@ -1,10 +1,10 @@
 
 module.exports = {
-  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'spencer@spwoo.onmicrosoft.com',
+  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || '1768045871@qq.com',
   icon: '/icons/128.png',
   kvPrefix: process.env.KV_PREFIX || '',
-  title: "Spencer's OneDrive",
-  baseDirectory: '/',
+  title: "Liam's OneDrive",
+  baseDirectory: '/Public/',
   maxItems: 100,
   googleFontSans: 'Inter',
   googleFontMono: 'Fira Mono',
