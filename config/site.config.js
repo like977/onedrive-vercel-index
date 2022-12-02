@@ -2,6 +2,7 @@
 module.exports = {
   userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'li9@7l3bsn.onmicrosoft.com',
   icon: '/icons/128.png',
+  kvPrefix: process.env.KV_PREFIX || '',
   title: "思衙",
   baseDirectory: '/Public',
   maxItems: 100,
